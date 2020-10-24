@@ -5,7 +5,11 @@ module.exports = {
   },
   purge: false,
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: () => ({
+        main: "url('/img/background.jpg')",
+      }),
+    },
   },
   variants: {},
   plugins: [],
