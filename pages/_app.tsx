@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
 import type { AppProps } from 'next/app'
-import '../styles/globals.css'
+import '../css/tailwind.css'
 
 function MyApp({ Component, pageProps }: AppProps): ReactElement {
   return <Component {...pageProps} />
