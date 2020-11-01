@@ -5,10 +5,9 @@ module.exports = {
   },
   purge: false,
   theme: {
-    extend: {
-      backgroundImage: () => ({
-        main: "url('/img/background.jpg')",
-      }),
+    fontSize: {
+      '2xl': '1.5rem',
+      '7xl': '5rem',
     },
   },
   variants: {},
